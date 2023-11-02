@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
+  --color-primary: #eb9544;
   --color-secondary: #37373f;
 }
 
@@ -1491,6 +1491,8 @@ section {
   position: relative;
   min-height: 60vh;
   padding: 160px 0 60px 0;
+  background-image: url("/assets/img/background.jpg");
+  background-size: cover;
 }
 
 .hero h2 {
@@ -1652,4 +1654,10 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+.background-block {
+  background-color: rgba(243, 238, 238, 0.9);
+  border-radius: 5%;
+
 }
